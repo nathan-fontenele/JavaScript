@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    font: normal 16pt Helvetica;
+    background-color: #f2f4aa;
+}
+
+h1, main, footer{
+    text-align: center;
+}
+
+h1{
+    padding: 20px 0;
+    color: #fff;
+}
+
+main{
+    background-color: #fff;
+    width: 90vw;
+    height: 60vh;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hora{
+    font: bold 20pt Helvetica;
+    padding: 20px 0;
+}
+
+#img{
+    width: 20em;
+    clip-path: circle(49%);
+}
+
+footer{
+    font: normal italic 16pt Helvetica;
+    color: #fff;
+}
