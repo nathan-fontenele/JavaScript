@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font: normal 17pt Helvetica;
+    background: #fc354c;
+    color: #29221f;
+}
+
+h1, form, #resultado{
+    text-align: center;
+    padding: 20px;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+}
+
+input#velocidade{
+    padding: 5px;
+    width: 30px;
+    font-size: 10pt;
+}
+
+input#submit{
+    padding: 5px;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+
+

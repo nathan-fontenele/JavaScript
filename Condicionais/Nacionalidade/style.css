@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fc354c;
+    color: #29221f;
+    font: normal 18pt Helvetica;
+}
+
+h1, form, #resultado{
+    text-align: center;
+    padding: 20px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="button"]{
+    background-color: #fcf7c5;
+    color: #29221f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    background-color: #f7f7f7;
+}
