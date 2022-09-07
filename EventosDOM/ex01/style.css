@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0 auto;
+    font: normal 20px Helvetica;
+}
+
+h1{
+    text-align: center;
+    padding: 50px;
+}
+
+#box{
+    width: 400px;
+    height: 400px;
+    background-color: #fc354c;
+    margin: 0 auto;
+    font: bold 30pt/400px Helvetica;
+    text-align: center;
+    display: block;
+    color: #fff;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: normal 20pt Helvetica;
+    text-align: center;
+}
+
+h1{
+    padding: 20px 0;
+    background-color: #fc354c;
+    color: #29221f;
+}
+
+input#number1, input#number2{
+    width: 60px;
+    height: 20px;
+    margin-top: 40px;
+}
+
+#resultado{
+    margin-top: 40px;
+    font-size: 18pt;
+}
