@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font:normal 10pt Helvetica;
+    background-color: #0abfbc;
+}
+
+header{
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+main{
+    background-color: #fff;
+    width: 50vw;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+section{
+    padding: 10px;
+    font: normal 14pt Helvetica;
+}
+
+#anoNasc{
+    width: 30vw;
+    padding: 10px;
+    font: normal 14pt Helvetica;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#verificar{
+    padding: 10px;
+    font: normal 14pt Helvetica;
+    border: none;
+    border-radius: 5px;
+    background-color: #0abfbc;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer{
+    padding: 20px;
+    font: normal italic 14pt Helvetica;
+    color: #fff;
+    text-align: center;
+}
+
