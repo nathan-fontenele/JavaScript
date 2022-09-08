@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #D2DBEE;
+    font: normal 16pt Helvetica;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+main{
+    background: #D2DBEE;
+    border-radius: 20px;
+    box-shadow: inset 14.41px 14.41px 29px #BFC7D9, inset -14.41px -14.41px 29px #E5EFFF;
+    width: 40vw;
+    height: 15vh;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+input{
+    background: #D2DBEE;
+    border-radius: 10px;
+    box-shadow: inset 14.41px 14.41px 29px #BFC7D9, inset -14.41px -14.41px 29px #E5EFFF;
+    width: 20%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    font: bolder 15pt Helvetica;
+}
+
+#result{
+    font-size: 30pt;
+}
