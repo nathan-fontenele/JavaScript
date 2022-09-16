@@ -10,11 +10,10 @@ function contar(){
     var i = Number(inicio.value);
     var f = Number(fim.value);
     var p = Number(passo.value)
-
-    if(i==0 && f==0 && p==0){
+    result.innerHTML = ' '
+    if(i==0 && f==0){
         result.innerHTML = 'Imposível contar'
-    }
-    else if(p==0){
+    }else if(p<=0){
         alert('Passo imválido considerando passo 1')
 
         if(i<f){
@@ -27,14 +26,12 @@ function contar(){
             }
         }
         result.innerHTML += `\u{1F3C1}`
-    }
-    else{
+    }else{
         if(i<f){
             for(c=i; c<=f; c+=p){
                 result.innerHTML += `${c} \u{1F449}`;
             }
-        }
-        else{
+        }else{
             for(c=i; c>=f; c-=p){
                 result.innerHTML += `${c} \u{1F449}`;
             }
@@ -42,4 +39,3 @@ function contar(){
         result.innerHTML += `\u{1F3C1}`;
     }
 }
-
